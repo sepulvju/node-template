@@ -1,0 +1,39 @@
+{
+  "name": "node-template",
+  "version": "0.0.1",
+  "description": "Easy to use Node JS template",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/sepulvju/node-template.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "template",
+    "server"
+  ],
+  "author": "sepulvju <sepulvju@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://gitlab.com/sepulvju/node-template/issues"
+  },
+  "homepage": "https://gitlab.com/sepulvju/node-template#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "supertest": "^4.0.2"
+  }
+}
