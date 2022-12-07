@@ -25,9 +25,9 @@
   },
   "homepage": "https://gitlab.com/sepulvju/node-template#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.4",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "http-errors": "^1.7.3",
     "morgan": "^1.9.1",
     "winston": "^3.2.1"
